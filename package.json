@@ -18,8 +18,21 @@
   },
   "homepage": "https://github.com/LenaRodionova/sprint_11#readme",
   "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "svg-inline-loader": "^0.8.0",
+    "url-loader": "^2.2.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.1.4"
   }
 }

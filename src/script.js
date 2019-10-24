@@ -1,9 +1,4 @@
 import "./style.css";
-const numbers = [2, 3, 5];
-const doubledNumbers = numbers.map(number => number * 2);
-
-console.log(doubledNumbers);
-
 let userId = "";
 
 class Api {
@@ -190,7 +185,8 @@ const popupFirst = new Popup(popupFirstElement);
 const popupSecond = new Popup(popupSecondElement);
 
 const api = new Api({
-    baseUrl: 'http://95.216.175.5/cohort3',
+    baseUrl: NODE_ENV === 'development' 
+    ? 'http://praktikum.tk/cohort3' : 'https://praktikum.tk/cohort3',
     headers: {
         authorization: '0d5b5599-695b-4d75-afbb-16b992ef7f36',
         'Content-Type': 'application/json'

@@ -535,7 +535,7 @@ template {
 }
 
 .place-card__delete-icon {
-    background: url("<svg viewBox=\"0 0 18 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2.45763 18.1422C2.51857 18.8126 3.06711 19.3002 3.73754 19.3002H14.2612C14.9317 19.3002 15.4802 18.7923 15.5411 18.1422L16.7195 5.79007H1.2793L2.45763 18.1422Z\" fill=\"white\"></path><path d=\"M16.7201 1.93002H11.5801V1.27991C11.5801 0.568849 11.0113 0 10.3002 0H7.72009C7.00903 0 6.44018 0.568849 6.44018 1.27991V1.93002H1.27991C0.568849 1.93002 0 2.49887 0 3.20993C0 3.92099 0.568849 4.48984 1.27991 4.48984H16.7201C17.4312 4.48984 18 3.92099 18 3.20993C18 2.49887 17.4312 1.93002 16.7201 1.93002Z\" fill=\"white\"></path></svg>") center no-repeat;
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAxOCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0yLjQ1NzYzIDE4LjE0MjJDMi41MTg1NyAxOC44MTI2IDMuMDY3MTEgMTkuMzAwMiAzLjczNzU0IDE5LjMwMDJIMTQuMjYxMkMxNC45MzE3IDE5LjMwMDIgMTUuNDgwMiAxOC43OTIzIDE1LjU0MTEgMTguMTQyMkwxNi43MTk1IDUuNzkwMDdIMS4yNzkzTDIuNDU3NjMgMTguMTQyMloiCiAgICAgICAgICBmaWxsPSJ3aGl0ZSIvPgogICAgPHBhdGggZD0iTTE2LjcyMDEgMS45MzAwMkgxMS41ODAxVjEuMjc5OTFDMTEuNTgwMSAwLjU2ODg0OSAxMS4wMTEzIDAgMTAuMzAwMiAwSDcuNzIwMDlDNy4wMDkwMyAwIDYuNDQwMTggMC41Njg4NDkgNi40NDAxOCAxLjI3OTkxVjEuOTMwMDJIMS4yNzk5MUMwLjU2ODg0OSAxLjkzMDAyIDAgMi40OTg4NyAwIDMuMjA5OTNDMCAzLjkyMDk5IDAuNTY4ODQ5IDQuNDg5ODQgMS4yNzk5MSA0LjQ4OTg0SDE2LjcyMDFDMTcuNDMxMiA0LjQ4OTg0IDE4IDMuOTIwOTkgMTggMy4yMDk5M0MxOCAyLjQ5ODg3IDE3LjQzMTIgMS45MzAwMiAxNi43MjAxIDEuOTMwMDJaIgogICAgICAgICAgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==) center no-repeat;
     background-color: transparent;
     border: none;
     width: 18px;
@@ -567,7 +567,7 @@ template {
 }
 
 .place-card__like-icon {
-    background: url("<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 100 87.7\" style=\"enable-background:new 0 0 100 87.7;\" xml:space=\"preserve\"><g><path d=\"M91.5,45.1c10.1-10.1,10.1-26.5,0-36.5l0,0C81.4-1.5,65-1.5,54.9,8.6l-4.9,5l-4.9-4.9C35-1.5,18.6-1.5,8.6,8.6 C3.7,13.5,1.1,20,1.1,26.9s2.7,13.4,7.5,18.3L50,86.6L91.5,45.1z M7.5,26.9c0-5.2,2-10,5.7-13.6c3.8-3.8,8.7-5.7,13.6-5.7 s9.8,1.9,13.6,5.7l9.6,9.5l9.6-9.6c7.5-7.5,19.8-7.5,27.2,0c3.6,3.6,5.7,8.4,5.7,13.6s-2,10-5.7,13.6L50,77.3L13.2,40.5 C9.6,36.8,7.5,32,7.5,26.9z\"></path></g></svg>") center no-repeat;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeD0iMHB4IgogICAgIHk9IjBweCIKICAgICB2aWV3Qm94PSIwIDAgMTAwIDg3LjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEwMCA4Ny43OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTkxLjUsNDUuMWMxMC4xLTEwLjEsMTAuMS0yNi41LDAtMzYuNWwwLDBDODEuNC0xLjUsNjUtMS41LDU0LjksOC42bC00LjksNWwtNC45LTQuOUMzNS0xLjUsMTguNi0xLjUsOC42LDguNgoJCUMzLjcsMTMuNSwxLjEsMjAsMS4xLDI2LjlzMi43LDEzLjQsNy41LDE4LjNMNTAsODYuNkw5MS41LDQ1LjF6IE03LjUsMjYuOWMwLTUuMiwyLTEwLDUuNy0xMy42YzMuOC0zLjgsOC43LTUuNywxMy42LTUuNwoJCXM5LjgsMS45LDEzLjYsNS43bDkuNiw5LjVsOS42LTkuNmM3LjUtNy41LDE5LjgtNy41LDI3LjIsMGMzLjYsMy42LDUuNyw4LjQsNS43LDEzLjZzLTIsMTAtNS43LDEzLjZMNTAsNzcuM0wxMy4yLDQwLjUKCQlDOS42LDM2LjgsNy41LDMyLDcuNSwyNi45eiIvPgo8L2c+Cjwvc3ZnPgo=) center no-repeat;
     background-color: transparent;
     border: none;
     width: 21px;
@@ -577,7 +577,7 @@ template {
 }
 
 .place-card__like-icon_liked {
-    background-image: url("<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 100 87.7\" style=\"enable-background:new 0 0 100 87.7;\" xml:space=\"preserve\"><g><path d=\"M91.5,45.1c10.1-10.1,10.1-26.5,0-36.5l0,0C81.4-1.5,65-1.5,54.9,8.6l-4.9,5l-4.9-4.9C35-1.5,18.6-1.5,8.6,8.6 C3.7,13.5,1.1,20,1.1,26.9s2.7,13.4,7.5,18.3L50,86.6L91.5,45.1z\"></path></g></svg>");
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeD0iMHB4IgogICAgIHk9IjBweCIKICAgICB2aWV3Qm94PSIwIDAgMTAwIDg3LjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEwMCA4Ny43OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTkxLjUsNDUuMWMxMC4xLTEwLjEsMTAuMS0yNi41LDAtMzYuNWwwLDBDODEuNC0xLjUsNjUtMS41LDU0LjksOC42bC00LjksNWwtNC45LTQuOUMzNS0xLjUsMTguNi0xLjUsOC42LDguNgoJCUMzLjcsMTMuNSwxLjEsMjAsMS4xLDI2LjlzMi43LDEzLjQsNy41LDE4LjNMNTAsODYuNkw5MS41LDQ1LjF6Ii8+CjwvZz4KPC9zdmc+Cg==);
 }
 
 .place-card__like-icon:hover {
@@ -719,6 +719,4 @@ template {
     display: none;
 }
 
-body {
-    background-color: #000;
-}
+body{background-color:#000}
